@@ -1,0 +1,45 @@
+---
+title: "Análise do ensino superior no Pará"
+output: html_notebook
+---
+```{r}
+require(RPostgreSQL)
+drv <- dbDriver("PostgreSQL")
+USUARIO <- .rs.askForPassword("Usuário do Banco de dados:")
+SENHA <- base64enc::base64encode(.rs.askForPassword("Senha do Banco de dados:"))
+HOST<- "localhost"
+BANCO<-"educacao"
+con <- dbConnect(drv, 
+                 dbname = BANCO,
+                 host = HOST, 
+                 port = 5432,
+                 user = USUARIO,
+                 password = base64enc::base64decode(SENHA)
+                 )
+SENHA<-NULL
+
+```
+
+
+```{sql connection=con}
+  select count(distinct(a.co_ies)) as ´2010´
+,count(distinct(f.co_ies)) as ´2015´
+,count(distinct(h.co_ies)) as ´2017´
+from censup.dm_ies_2010 a
+,censup.dm_ies_2015 f
+,censup.dm_ies_2017 h
+where a.co_uf_ies='15'  or f.co_uf_ies='15' or h.co_uf='15'
+
+```
+
+
+<h2> Caracterização das instituições de ensino superior do estado do Pará </h2>
+
+<h3> A concentração e distribuição </h3>
+
+<h3> O desempenho </h3>
+
+<h3> O investimento </h3>
+
+
+

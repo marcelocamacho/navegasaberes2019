@@ -1,0 +1,382 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Análise do impacto da expansão multicampi das universidades federais na dinâmica econômica e social dos municípios paraenses utilizando Data Analytics.},
+            pdfauthor={Camacho, M.S.},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Análise do impacto da expansão multicampi das universidades federais na
+dinâmica econômica e social dos municípios paraenses utilizando Data
+Analytics.}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Camacho, M.S.}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\hypertarget{introducao}{%
+\subsection{Introdução}\label{introducao}}
+
+\hypertarget{resumo}{%
+\subsubsection{RESUMO}\label{resumo}}
+
+O projeto propõe a investigação do impacto da Universidade Federal no
+ambiente e economia municipal e sua contribuição para o desenvolvimento
+sustentável e melhoria de índices sociais, humanos e demográficos,
+calcados na hipótese de que os processos de seleção acadêmica e formação
+de quadros profissionais na dinâmica de expansão universitária figuram
+como coeficientes de desenvolvimento. Tais análises serão construídas
+com alunos que se interessam pela área da estatística e programação, bem
+como para aqueles que têm curiosidade em ver aplicados os conceitos
+estudados em disciplinas de estatística, economia e programação. Durante
+a jornada, serão abordados conceitos de bancos de dados: aquisição,
+tratamento e carga de dados, consultas analíticas e exportação de dados;
+Planilhas eletrônicas: tabelas dinâmicas, gráficos, estatísticas
+descritivas e ajuste de curvas; e a ferramenta GNU R com todo seu
+potencial de análise com aplicação de técnicas de Data Mining e
+visualização de dados. Conhecimentos que serão extremamente úteis na
+jornada acadêmica e profissional.
+
+\hypertarget{justificativa}{%
+\subsubsection{JUSTIFICATIVA}\label{justificativa}}
+
+A expansão da educação superior está associada diretamente com a
+formação de mão de obra qualificada para o mercado de trabalho e o
+fortalecimento do setor de pesquisa e desenvolvimento, com cursos de
+graduação e pós-graduação, no entanto, o processo de criação de
+universidades e campi universitários também contribui com a economia
+local, sobretudo em pequenos municípios. Fora da dimensão educacional,
+pouco se sabe sobre o impacto da política multicampi, ou sobre o
+processo de interiorização da Universidade Federal do Pará e como ela
+alterou a dimensão demográfica, econômica, social e cultural dos
+municípios que as acolheram. Conhecer as consequências do esforço de
+aumentar a presença institucional nas comunidades paraenses é um
+exercício de autoconhecimento que deve ser praticado para agregar valor
+às universidades públicas e aos municípios que apoiam tal processo. LUZ
+et al. (2017) destacam o papel das Universidades Públicas no
+desenvolvimento sustentável, caracterizando-as como instituições de
+ensino, pesquisa e extensão, mas também culturais e humanas. Dados
+estatísticos do Censo da Educação Superior de 2016 mostram o galopante
+crescimento de instituições privadas, com acentuada presença em capitais
+e em ambientes EAD. No entanto, quando se trata apenas das ofertas de
+cursos presenciais, as instituições particulares ofertaram 56\% dos seus
+cursos no Interior conseguindo um saldo de 44\% das matrículas, enquanto
+que a oferta de cursos fora da capital por instituições públicas foi de
+76\%, com 52\% das matrículas, mostrando que a capilaridade e a força
+das instituições Públicas de Ensino Superior ainda é mais forte. O
+processo de seleção e oferta de cursos especializados fora da capital é
+um diferencial para as universidades públicas, o SISU (Sistema de
+Seleção Unificada) tem permitido uma maior distribuição das vagas,
+oferecendo ao candidato a oportunidade de ingressar no ensino superior
+em instituições sediadas em outros municípios. Essa migração é positiva
+no sentido de reduzir a endogenia na formação de quadros profissionais,
+no entanto, como demonstrado por LI (2016), o SISU aumenta a
+probabilidade de migração interestadual em 3,9\%. Tal processo de
+migração, pode provocar efeitos sensíveis na dinâmica de pequenos
+municípios: seja no turismo, habitação, PIB, entre outros índices
+sociais e demográficos. A ampliação da rede federal de ensino com a
+política de interiorização multicampi, da qual a UFPA é pioneira,
+propiciou em vários casos, colaborações exitosas entre a universidade e
+a administração pública municipal, no sentido de apoiar o interesse do
+desenvolvimento local com a oferta de cursos específicos, ou mesmo na
+oferta de qualificação para agentes municipais. No ponto de vista
+microeconômico, verifica-se a participação do valor adicionado bruto a
+preços correntes da administração, defesa, educação e saúde públicas e
+seguridade social representa até 29\% do PIB para municípios paraenses,
+representando na sua maioria a força de trabalho da administração
+pública municipal. A criação de um órgão com quadros super qualificados,
+como é o caso de campi universitários, que além de professores doutores,
+oferece vagas para assistentes e técnicos de nível superior e médio
+aumenta a renda municipal, e consequentemente as transferências
+sucessivas de renda . A ciência de dados está se tornando a atividade
+mais popular do século, inclusive ciências cuja natureza de análise eram
+predominantemente qualitativas, incluem em seus currículos disciplinas
+matemáticas, estatísticas e de computação estudando métodos analíticos
+ou heurísticos de análise de fenômenos (DAVENPORT, 2012). Em várias
+situações acadêmicas e profissionais é exigido familiaridade com dados:
+atividades experimentais, controle de processos, atividades de
+investigação ou ensaios laboratoriais etc. todas essas atividades
+tornam-se simples se operadas com as ferramentas certas e conhecimentos
+básicos em ciência de dados. Fica cada vez mais claro, que tais
+habilidades são esperadas de profissionais do futuro, profissionais que
+lidarão com Big Data, analisando dados provenientes de redes sociais e
+bases de dados estruturadas ou não. Além disso, ter a capacidade de
+operar grandes volumes de dados não é suficiente, é necessário ter o
+conhecimento certo para analisá-los e extrair deles informações úteis.
+Árvores de decisão, redes bayesianas, redes neurais, KNN, Cluster etc
+são exemplos de técnicas aplicadas comumente em Big Data, e devem ser
+familiares à geração de estudantes que ingressarão em um ambiente
+profissional cada vez mais exigente e competitivo.
+
+\hypertarget{objetivos}{%
+\subsubsection{OBJETIVOS}\label{objetivos}}
+
+\begin{itemize}
+\tightlist
+\item
+  Conhecer o impacto da Universidade Federal do Pará na economia
+  municipal;
+\item
+  Explorar conceitos de estatística e análise de dados com alunos do
+  Campus de Salinópolis, aplicando conceitos de estatística e
+  programação explorados durante o curso;
+\item
+  Popularizar ferramentas de bancos de dados, estatística e Data Mining;
+\item
+  Oferecer às instituições locais indicadores sociais em de panoramas
+  analíticos e infográficos, subsidiando a tomada de decisões, sobretudo
+  para gestores públicos.
+\end{itemize}
+
+\hypertarget{metas}{%
+\subsubsection{METAS}\label{metas}}
+
+\begin{itemize}
+\tightlist
+\item
+  Construir uma base de dados estratificada por município com as
+  variáveis para estudo de fenômenos sociais, culturais, ambientais,
+  educacionais, econômicos e demográficos para pesquisadores e alunos.
+\item
+  Publicação de artigos em congresso/conferência nacional sobre o estudo
+  do impacto das universidades federais paraenses;
+\item
+  Oferecer mini-cursos sobre bases de dados e ferramentas de Data
+  Analytics.
+\end{itemize}
+
+\hypertarget{metodologia}{%
+\subsubsection{METODOLOGIA}\label{metodologia}}
+
+Utilizando fontes de dados abertas e públicas, e meios de acesso à
+informação como Sistemas de Transparência Governamentais será possível
+agregar bases históricas de variáveis indicadores sociais, demográficos
+e econômicos estratificados por município. Após a construção do Banco de
+Dados utilizando o SGBD PostgreSQL, será criado um DataWarehouse
+utilizando a engine Pentaho para a implantação de uma ferramenta OLAP de
+Business Intelligence, permitindo aos usuários a criação de estatísticas
+descritivas e gráficos online, combinando uma ou mais dimensões com as
+variáveis de interesse. Tais dados, poderão ser dinamicamente
+transformados e exportados para uma ou mais ferramentas estatísticas,
+como planilhas eletrônicas ou mesmo softwares estatísticos, como o GNU
+R. Utilizando o software estatístico GNU R, serão aplicadas técnicas de
+aprendizado de máquina não supervisionados, como Clusterização e KNN,
+objetivando identificar padrões entre municípios que contam com a
+presença de um Campi Universitário. Já as técnicas de aprendizado
+supervisionado, como árvore de decisão e redes bayesianas serão
+utilizadas para compreender melhor o fenômeno, de modo a enriquecer a
+análise da estatística descritiva. Por fim, serão realizados testes
+estatísticos de média e variância para validar as hipóteses levantadas.
+Todas as ferramentas e conhecimentos necessários serão oferecidos aos
+alunos do Campus, principalmente aos discentes vinculados ao curso de
+matemática. O aluno aprenderá em um minicurso prático os principais
+conhecimentos necessários para criação e implantação de bases de dados,
+operações e planejamento. Também será oferecido um minicurso sobre o
+software livre GNU R, que figura entre os principais softwares
+destinados à Data Analytics. Por fim, os resultados devem ser
+apresentados para a comunidade acadêmica em eventos de extensão, como
+também popularizado pela comunidade científica através de artigos e
+apresentação em congressos científicos. Durante o intercurso do projeto
+serão oferecidos minicursos práticos, focando a temática do projeto e
+utilizando dados reais. No minicurso de Planilhas de texto e tratamento
+de dados os alunos serão familiarizados com operações de busca, edição,
+retabulação de dados, expressões regulares, estatísticas descritivas,
+fórmulas e índices, gráficos e análise de regressão para ajuste de
+curvas. No minicurso de Banco de dados, os alunos aprenderão sobre o
+processo de criação e manutenção de um banco de dados relacional:
+criação/edição/deleção de tabelas e inserção/busca/deleção/alteração de
+dados, utilizando o SGBD PostgreSQL. Por fim, será apresentada a
+ferramenta GNU R e o ambiente RStudio, onde serão estudados os tipos de
+dados e serão implementadas funções estatísticas para análise dos dados
+e geração de gráficos poderosos e elegantes.
+
+\hypertarget{carga}{%
+\subsection{Carga}\label{carga}}
+
+Os dados brutos foram obtidos do Instituto Brasileiro de Geografia e
+Estatística (IBGE), através do link
+(\url{https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?t=resultados}),
+menu `'Download'', disponibilizados em dois arquivos: Base 2010-2016,
+que utiliza a metodologia corrente de estimação do PIB, e outro arquivo
+nominado de Base 2002-2009, que são indicadores estimados por
+retropolação. Os arquivos são disponibilizados em XLS, ODS e TXT, e
+transmitidos compactados para download. Para mais detalhes sobre a
+metodologia de estimação do PIB a preços correntes, pode ser consultado
+a documentação disponível em:
+
+\begin{itemize}
+\item
+  Retropolação -
+  \url{ftp://ftp.ibge.gov.br/Pib_Municipios/Notas_Metodologicas_2010/NotaMetodologicaPIB_MunicipiosRetropolacao.pdf}
+\item
+  Á partir de 2010 -
+  \url{ftp://ftp.ibge.gov.br/Pib_Municipios/Notas_Metodologicas_2010/NotaMetodologicaPIB_MunicipiosRef2010.pdf}
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(readxl)}
+\NormalTok{  dados02a09 <-}\StringTok{ }\KeywordTok{read_excel}\NormalTok{(}\StringTok{'../DADOS/PIB dos Municipios - base de dados 2002-2009.xls'}\NormalTok{)}
+\NormalTok{  dados10a16 <-}\StringTok{ }\KeywordTok{read_excel}\NormalTok{(}\StringTok{'../DADOS/PIB dos Municipios - base de dados 2010-2016.xls'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+Percebemos que o arquivo da série 2010 a 2016 apresenta 5 variáveis
+extras:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{names}\NormalTok{(dados10a16)[}\KeywordTok{names}\NormalTok{(dados10a16) }\OperatorTok{%in%}\StringTok{ }\KeywordTok{names}\NormalTok{(dados02a09)}\OperatorTok{==}\StringTok{"FALSE"}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "População\n(Nº de habitantes)"                      
+## [2] "Produto Interno Bruto per capita\n(R$ 1,00)"        
+## [3] "Atividade com maior valor adicionado bruto"         
+## [4] "Atividade com segundo maior valor adicionado bruto" 
+## [5] "Atividade com terceiro maior valor adicionado bruto"
+\end{verbatim}
+
+\hypertarget{transformacao}{%
+\subsection{Transformação}\label{transformacao}}
+
+\hypertarget{renominacao-de-fatores}{%
+\subsubsection{Renominação de fatores}\label{renominacao-de-fatores}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{nomes02a09<-}\KeywordTok{c}\NormalTok{(}\StringTok{"ano"}\NormalTok{,}\StringTok{"cod_granderegiao"}\NormalTok{,}\StringTok{"nome_granderegiao"}\NormalTok{,}\StringTok{"cod_uf"}\NormalTok{,}\StringTok{"sgl_uf"}\NormalTok{,}\StringTok{"nome_uf"}\NormalTok{,}\StringTok{"cod_municipio"}\NormalTok{,}\StringTok{"nome_municipio"}\NormalTok{,}
+              \StringTok{"regiao_metropolitana"}\NormalTok{,}\StringTok{"cod_mesoregiao"}\NormalTok{,}\StringTok{"nome_mesoregiao"}\NormalTok{,}\StringTok{"cod_microregiao"}\NormalTok{,}\StringTok{"nome_microregiao"}\NormalTok{,}
+              \StringTok{"cod_regiaorural"}\NormalTok{,}\StringTok{"nome_regiaorural"}\NormalTok{,}\StringTok{"tipo_regiaorural"}\NormalTok{,}\StringTok{"cod_regiao_imediata"}\NormalTok{,}\StringTok{"nome_regiao_imediata"}\NormalTok{,}\StringTok{"mun_imediata"}\NormalTok{,}
+              \StringTok{"cod_regiao_intermediaria"}\NormalTok{,}\StringTok{"nome_regiao_intermediaria"}\NormalTok{,}\StringTok{"mun_intermediaria"}\NormalTok{,}\StringTok{"amazonia_legal"}\NormalTok{,}\StringTok{"semiarido"}\NormalTok{,}\StringTok{"cod_concentracao_urbana"}\NormalTok{,}
+              \StringTok{"nome_concentracao_urbana"}\NormalTok{,}\StringTok{"tipo_concentracao_urbana"}\NormalTok{,}\StringTok{"cod_arranjo_populacional"}\NormalTok{,}\StringTok{"nome_arranjo_populacional"}\NormalTok{,}\StringTok{"tipologia_rural_urbana"}\NormalTok{,}\StringTok{"hierarquia_urbana"}\NormalTok{,}\StringTok{"princ_cat_hier_urbana"}\NormalTok{,}\StringTok{"cid_reg_sp"}\NormalTok{,}\StringTok{"VAB_agropecuaria"}\NormalTok{,}\StringTok{"VAB_industria"}\NormalTok{,}\StringTok{"VAB_servicos"}\NormalTok{,}\StringTok{"VAB_administracao"}\NormalTok{,}\StringTok{"VAB_total"}\NormalTok{,}
+              \StringTok{"impostos"}\NormalTok{,}\StringTok{"pib"}\NormalTok{)}
+
+\NormalTok{nomes10a16<-}\KeywordTok{c}\NormalTok{(nomes02a09,}\StringTok{"populacao"}\NormalTok{,}\StringTok{"pib_percapita"}\NormalTok{,}\StringTok{"ativ_1_maior_vab"}\NormalTok{,}\StringTok{"ativ_2_maior_vab"}\NormalTok{,}\StringTok{"ativ_3_maior_vab"}\NormalTok{)}
+
+\KeywordTok{names}\NormalTok{(dados02a09)<-nomes02a09}
+\KeywordTok{names}\NormalTok{(dados10a16)<-nomes10a16}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{analises}{%
+\subsection{Análises}\label{analises}}
+
+
+\end{document}
