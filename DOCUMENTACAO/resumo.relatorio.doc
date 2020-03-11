@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<head>
+	<title>SISAE</title>
+	
+</head>
+
+<body>
+
+<center><h2><strong style="color:#000; text-transform: uppercase">RELATÓRIO PARCIAL Navega Saberes/Infocentro 2019</strong></h2></center>
+<br /><br />
+
+ <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #000; font-size:24px; font-weight:bold">Identificação</td>
+    </tr>
+        
+	      	        	    <tr>
+      	      <td width="300">
+                  <strong>Título</strong> 
+                                </td>
+      	      <td>
+			    Análise do impacto da expansão multicampi das universidades federais na dinâmica econômica e social dos municípios paraenses utilizando Data Analytics.              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Tipo</strong> 
+                                </td>
+      	      <td>
+			    Projeto              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Subunidade Acadêmica</strong> 
+                                </td>
+      	      <td>
+			    Campus Universitário de Salinópolis              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Grande Área</strong> 
+                                </td>
+      	      <td>
+			    Ciências Exatas e da Terra              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Área Temática Principal</strong> 
+                                </td>
+      	      <td>
+			    Educação              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>linha de Extensão</strong> 
+                                </td>
+      	      <td>
+			    Tecnologia da Informação              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Palavras-chave</strong> 
+                                </td>
+      	      <td>
+			    Estatística, Big Data, Data Analytcs, Database, Tecnologias de software              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Resumo</strong> 
+                                </td>
+      	      <td>
+			    O projeto propõe a investigação do impacto da Universidade Federal no ambiente e economia municipal e sua contribuição para o desenvolvimento sustentável e melhoria de índices sociais, humanos e demográficos, calcados na hipótese de que os processos de seleção acadêmica e formação de quadros profissionais na dinâmica de expansão universitária figuram como coeficientes de desenvolvimento. Tais análises serão construídas com alunos que se interessam pela área da estatística e programação, bem como para aqueles que têm curiosidade em ver aplicados os conceitos estudados em disciplinas de estatística, economia e programação.<br />
+Durante a jornada, serão abordados conceitos de bancos de dados: aquisição, tratamento e carga de dados, consultas analíticas e exportação de dados; Planilhas eletrônicas: tabelas dinâmicas, gráficos, estatísticas descritivas e ajuste de curvas; e a ferramenta GNU R com todo seu potencial de análise com aplicação de técnicas de Data Mining e visualização de dados. Conhecimentos que serão extremamente úteis na jornada acadêmica e profissional dos participantes.<br />
+              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Experiência com extensão?</strong> 
+                                </td>
+      	      <td>
+			    Outro (Consultoria em projetos de extensão que trabalharam com estudos ecológicos utilizando bases de dados públicas: IBGE, DATASUS e outras. Durante dois anos atuando no LCC/UNIFESSPA (2016-2018))              </td>
+    	    </tr>
+    	    	    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #000; font-size:24px; font-weight:bold">Equipe Técnica</td>
+    </tr>
+        
+     	       <td><strong>Nome</strong></td>
+           <td><strong>Matrícula</strong></td>
+           <td><strong>Unidade Acadêmica</strong></td>
+           <td><strong>Vínculo Institucional</strong></td>
+           <td><strong>Titulação</strong></td>
+           <td><strong>Função no projeto</strong></td>
+           <td><strong>Carga Horária</strong></td>
+           <td><strong>Telefone</strong></td>
+           <td><strong>Email</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    MARCELO SANTANA CAMACHO      </td>
+          <td>
+	    3826217      </td>
+          <td>
+	    CAMPUS UNIVERSITÁRIO DE SALINÓPOLIS      </td>
+          <td>
+	    Técnico Administrativo      </td>
+          <td>
+	    Especialização      </td>
+          <td>
+	    Coordenador      </td>
+          <td>
+	    20      </td>
+          <td>
+	    987570944      </td>
+          <td>
+	    camacho@ufpa.br      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Arleson Eduardo Monte Palma Lopes      </td>
+          <td>
+	    1190399      </td>
+          <td>
+	    Campus Universitário de Salinópolis      </td>
+          <td>
+	    Técnico Administrativo      </td>
+          <td>
+	    Especialização      </td>
+          <td>
+	    Subcoordenador      </td>
+          <td>
+	    20      </td>
+          <td>
+	    91982175594      </td>
+          <td>
+	    arleson@ufpa.br      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Antonia Vamilis da Silva Brito      </td>
+          <td>
+	    1385618      </td>
+          <td>
+	    Campus Universitário de Salinópolis      </td>
+          <td>
+	    Técnico Administrativo      </td>
+          <td>
+	    Graduação      </td>
+          <td>
+	    Membro      </td>
+          <td>
+	    10      </td>
+          <td>
+	    981024339      </td>
+          <td>
+	    vamilisbrito@ufpa.br      </td>
+        </tr>
+	
+    </table><br /><br />
+    
+<br /><br />
+
+  <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #000; font-size:24px; font-weight:bold">Houve parceria com Instituições externas à UFPA?</td>
+    </tr>
+        
+     	       <td><strong>Nome da instituição</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARÁ      </td>
+        </tr>
+	
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #000; font-size:24px; font-weight:bold">O Programa /Projeto de Extensão alcançou os objetivos pretendidos PARCIALMENTE</td>
+    </tr>
+        
+     	       <td><strong>Objetivo alcançado</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    AQUISIÇÃO DOS DADOS E PRODUÇÃO DOS BANCOS DE DADOS ANALÍTICOS      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    ESTUDO DA LITERATURA CORRELATA AO TEMA E PRODUÇÃO DE DEBATES COM ALUNOS DO PROJETO      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    APRESENTAÇÃO DE CONCEITOS DE ESTATÍSTICA, ECONOMIA E DATA MINING.      </td>
+        </tr>
+	
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #000; font-size:24px; font-weight:bold">Material didático produzido</td>
+    </tr>
+        
+     	       <td><strong>Descrição</strong></td>
+           <td><strong>Autor(es)</strong></td>
+           <td><strong>Título</strong></td>
+           <td><strong>Local de publicação</strong></td>
+           <td><strong>Editora</strong></td>
+           <td><strong>Data de publicação</strong></td>
+           <td><strong>Total de páginas</strong></td>
+           <td><strong>Tipo</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    MATERIAL DO CURSO DE TRATAMENTO DE DADOS E BANCOS DE DADOS: "TRABALHANDO COM CIÊNCIA DE DADOS"      </td>
+          <td>
+	    MARCELO SANTANA CAMACHO      </td>
+          <td>
+	    TRABALHANDO COM CIÊNCIA DE DADOS      </td>
+          <td>
+	    0      </td>
+          <td>
+	    0      </td>
+          <td>
+	    0      </td>
+          <td>
+	    0      </td>
+          <td>
+	    outros      </td>
+        </tr>
+	
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #000; font-size:24px; font-weight:bold">Custos</td>
+    </tr>
+        
+     	       <td><strong>Elemento de Despesa</strong></td>
+           <td><strong>Fonte de Financiamento</strong></td>
+           <td><strong>Valor</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    Bolsa de Extensão PROEX      </td>
+          <td>
+	    SAEST      </td>
+          <td>
+	    400.00      </td>
+        </tr>
+	
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #000; font-size:24px; font-weight:bold">Observações e Sugestões</td>
+    </tr>
+        
+	      	        	    <tr>
+      	      <td width="300">
+                  <strong>Descreva</strong> 
+                                </td>
+      	      <td>
+			    O PROJETO ATRAIU A ATENÇÃO DE VÁRIOS ALUNOS, QUE AO LONGO DO PERÍODO FORAM INCLUÍDOS COMO VOLUNTÁRIOS. SERIA INTERESSANTE PERMITIR A INCLUSÃO DE ALUNOS, QUE ATUAM EM MAIS DE UM PROJETO.<br />
+<br />
+O CALENDÁRIO DO CURSO FOI COMPROMETIDO EM RAZÃO DE PROBLEMAS NO AR CONDICIONADO DO ÚNICO LABORATÓRIO DE INFORMÁTICA EXISTENTE NO CAMPUS, QUE FICOU INOPERANTE POR MAIS DE 2 MESES. TODOS OS CURSOS SERÃO REPROGRAMADOS PARA 2020.              </td>
+    	    </tr>
+    	    	    </table><br /><br />
+    
+</body>
+</html>

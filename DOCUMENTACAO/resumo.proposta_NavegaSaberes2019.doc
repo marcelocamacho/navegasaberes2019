@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<head>
+	<title>SISAE</title>
+	
+</head>
+
+<body>
+</div>
+  <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #A00; font-size:24px; font-weight:bold">Identificação</td>
+    </tr>
+        
+	      	        	    <tr>
+      	      <td width="300">
+                  <strong>Título</strong> 
+                  				                </td>
+      	      <td>
+			    Análise do impacto da expansão multicampi das universidades federais na dinâmica econômica e social dos municípios paraenses utilizando Data Analytics.              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Tipo</strong> 
+                  				                </td>
+      	      <td>
+			    Projeto              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Caracterização</strong> 
+                  				                </td>
+      	      <td>
+			    Primeira Versão              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Subunidade Acadêmica</strong> 
+                  				                </td>
+      	      <td>
+			    Campus Universitário de Salinópolis              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Grande Área</strong> 
+                  				                </td>
+      	      <td>
+			    Ciências Exatas e da Terra              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Área Temática Principal</strong> 
+                  				                </td>
+      	      <td>
+			    Educação              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>linha de Extensão</strong> 
+                  				                </td>
+      	      <td>
+			    Tecnologia da Informação              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Palavras-chave</strong> 
+                  				                </td>
+      	      <td>
+			    Estatística, Big Data, Data Analytcs, Database, Tecnologias de software              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Local de Execução </strong> 
+                  				                </td>
+      	      <td>
+			    Salinópolis/PA              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Público alvo (número total)</strong> 
+                  				                </td>
+      	      <td>
+			    60              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Carga Horária</strong> 
+                  				                </td>
+      	      <td>
+			    20              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Abrangência</strong> 
+                  				                </td>
+      	      <td>
+			    Interinstitucional              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Área</strong> 
+                  				                </td>
+      	      <td>
+			    Urbana              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Resumo</strong> 
+                  				                </td>
+      	      <td>
+			    O projeto propõe a investigação do impacto da Universidade Federal no ambiente e economia municipal e sua contribuição para o desenvolvimento sustentável e melhoria de índices sociais, humanos e demográficos, calcados na hipótese de que os processos de seleção acadêmica e formação de quadros profissionais na dinâmica de expansão universitária figuram como coeficientes de desenvolvimento. Tais análises serão construídas com alunos que se interessam pela área da estatística e programação, bem como para aqueles que têm curiosidade em ver aplicados os conceitos estudados em disciplinas de estatística, economia e programação.<br />
+Durante a jornada, serão abordados conceitos de bancos de dados: aquisição, tratamento e carga de dados, consultas analíticas e exportação de dados; Planilhas eletrônicas: tabelas dinâmicas, gráficos, estatísticas descritivas e ajuste de curvas; e a ferramenta GNU R com todo seu potencial de análise com aplicação de técnicas de Data Mining e visualização de dados. Conhecimentos que serão extremamente úteis na jornada acadêmica e profissional dos participantes.<br />
+              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Vínculo com o Projeto Pedagógico do Curso?</strong> 
+                  				                </td>
+      	      <td>
+			    Sim              </td>
+    	    </tr>
+    	        	    <tr>
+      	      <td width="300">
+                  <strong>Experiência com extensão?</strong> 
+                  				                </td>
+      	      <td>
+			    Outro (Consultoria em projetos de extensão que trabalharam com estudos ecológicos utilizando bases de dados públicas: IBGE, DATASUS e outras. Durante dois anos atuando no LCC/UNIFESSPA (2016-2018))              </td>
+    	    </tr>
+    	    	    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #A00; font-size:24px; font-weight:bold">Justificativa</td>
+    </tr>
+        <tr>
+      <td align="justify">
+	    	   
+  	        	   
+			    A expansão da educação superior está associada diretamente com a formação de mão de obra qualificada para o mercado de trabalho e o fortalecimento do setor de pesquisa e desenvolvimento, com cursos de graduação e pós-graduação, no entanto, o processo de criação de universidades e campi universitários também contribui com a economia local, sobretudo em pequenos municípios. Fora da dimensão educacional, pouco se sabe sobre o impacto da política multicampi, ou sobre o processo de interiorização da Universidade Federal do Pará e como ela alterou a dimensão demográfica, econômica, social e cultural dos municípios que as acolheram. Conhecer as consequências do esforço de aumentar a presença institucional nas comunidades paraenses é um exercício de autoconhecimento que deve ser praticado para agregar valor às universidades públicas e aos municípios que apoiam tal processo. LUZ et al. (2017) destacam o papel das Universidades Públicas no desenvolvimento sustentável, caracterizando-as como instituições de ensino, pesquisa e extensão, mas também culturais e humanas.<br />
+Dados estatísticos do Censo da Educação Superior de 2016 mostram o galopante crescimento de instituições privadas, com acentuada presença em capitais e em ambientes EAD. No entanto, quando se trata apenas das ofertas de cursos presenciais, as instituições particulares ofertaram 56% dos seus cursos no Interior conseguindo um saldo de 44% das matrículas, enquanto que a oferta de cursos fora da capital por instituições públicas foi de 76%, com 52% das matrículas, mostrando que a capilaridade e a força das instituições Públicas de Ensino Superior ainda é mais forte. O processo de seleção e oferta de cursos especializados fora da capital é um diferencial para as universidades públicas, o SISU (Sistema de Seleção Unificada) tem permitido uma maior distribuição das vagas, oferecendo ao candidato a oportunidade de ingressar no ensino superior em instituições sediadas em outros municípios. Essa migração é positiva no sentido de reduzir a endogenia na formação de quadros profissionais, no entanto, como demonstrado por LI (2016), o SISU aumenta a probabilidade de migração interestadual em 3,9%. Tal processo de migração, pode provocar efeitos sensíveis na dinâmica de pequenos municípios: seja no turismo, habitação, PIB, entre outros índices sociais e demográficos. <br />
+A ampliação da rede federal de ensino com a política de interiorização multicampi, da qual a UFPA é pioneira, propiciou em vários casos, colaborações exitosas entre a universidade e a administração pública municipal, no sentido de apoiar o interesse do desenvolvimento local com a oferta de cursos específicos, ou mesmo na oferta de qualificação para agentes municipais. No ponto de vista microeconômico, verifica-se a participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social representa até 29% do PIB para municípios paraenses, representando na sua maioria a força de trabalho da administração pública municipal. A criação de um órgão com quadros super qualificados, como é o caso de campi universitários, que além de professores doutores, oferece vagas para assistentes e técnicos de nível superior e médio aumenta a renda municipal, e consequentemente as transferências sucessivas de renda . <br />
+A ciência de dados está se tornando a atividade mais popular do século, inclusive ciências cuja natureza de análise eram predominantemente qualitativas, incluem em seus currículos disciplinas matemáticas, estatísticas e de computação estudando métodos analíticos ou heurísticos de análise de fenômenos (DAVENPORT, 2012). Em várias situações acadêmicas e profissionais é exigido familiaridade com dados: atividades experimentais, controle de processos, atividades de investigação ou ensaios laboratoriais etc. todas essas atividades tornam-se simples se operadas com as ferramentas certas e conhecimentos básicos em ciência de dados. Fica cada vez mais claro, que tais habilidades são esperadas de profissionais do futuro, profissionais que lidarão com Big Data, analisando dados provenientes de redes sociais e bases de dados estruturadas ou não. Além disso, ter a capacidade de operar grandes volumes de dados não é suficiente, é necessário ter o conhecimento certo para analisá-los e extrair deles informações úteis. Árvores de decisão, redes bayesianas, redes neurais, KNN, Cluster etc são exemplos de técnicas aplicadas comumente em Big Data, e devem ser familiares à geração de estudantes que ingressarão em um ambiente profissional cada vez mais exigente e competitivo.<br />
+              
+    	    	   
+	  </td>
+    </tr>
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #A00; font-size:24px; font-weight:bold">Objetivos</td>
+    </tr>
+        
+     	       <td><strong>Objetivo</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    Conhecer o impacto da Universidade Federal do Pará na economia municipal;      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Explorar conceitos de estatística e análise de dados com alunos do Campus de Salinópolis, aplicando conceitos de estatística e programação explorados durante o curso;      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Popularizar ferramentas de bancos de dados, estatística e Data Mining;      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Oferecer às instituições locais indicadores sociais em de panoramas analíticos e infográficos, subsidiando a tomada de decisões, sobretudo para gestores públicos.      </td>
+        </tr>
+	
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #A00; font-size:24px; font-weight:bold">Metas</td>
+    </tr>
+        
+     	       <td><strong>Meta</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    Construir uma base de dados estratificada por município com as variáveis para estudo de fenômenos sociais, culturais, ambientais, educacionais, econômicos e demográficos para pesquisadores e alunos.      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Publicação de artigos em congresso/conferência nacional sobre o estudo do impacto das universidades federais paraenses;      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Oferecer mini-cursos sobre bases de dados e ferramentas de Data Analytics.      </td>
+        </tr>
+	
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #A00; font-size:24px; font-weight:bold">Metodologia</td>
+    </tr>
+        <tr>
+      <td align="justify">
+	    	   
+  	        	   
+			    Utilizando fontes de dados abertas e públicas, e meios de acesso à informação como Sistemas de Transparências Governamentais será possível agregar bases históricas de variáveis indicadores sociais, demográficos e econômicos estratificados por município. Após a construção do Banco de Dados utilizando o SGBD PostgreSQL, será criado um DataWarehouse utilizando a engine Pentaho para a implantação de uma ferramenta OLAP de Business Intelligence, permitindo aos usuários a criação de estatísticas descritivas e gráficos online, combinando uma ou mais dimensões com as variáveis de interesse. Tais dados, poderão ser dinamicamente transformados e exportados para uma ou mais ferramentas estatísticas, como planilhas eletrônicas ou mesmo softwares estatísticos, como o GNU R. <br />
+Utilizando o software estatístico GNU R, serão aplicadas técnicas de aprendizado de máquina não supervisionados, como Clusterização e KNN, objetivando identificar padrões entre municípios que contam com a presença de um Campi Universitário. Já as técnicas de aprendizado supervisionado, como árvore de decisão e redes bayesianas serão utilizadas para compreender melhor o fenômeno, de modo a enriquecer a análise da estatística descritiva. Por fim, serão realizados testes estatísticos de média e variância para validar as hipóteses levantadas.<br />
+Todas as ferramentas e conhecimentos necessários serão oferecidos aos alunos do Campus, principalmente aos discentes vinculados ao curso de matemática. O aluno aprenderá em um minicurso prático os principais conhecimentos necessários para criação e implantação de bases de dados, operações e planejamento. Também será oferecido um minicurso sobre o software livre GNU R, que figura entre os principais softwares destinados à Data Analytics.<br />
+Por fim, os resultados devem ser apresentados para a comunidade acadêmica em eventos de extensão, como também popularizado pela comunidade científica através de artigos e apresentação em congressos científicos. Durante o intercurso do projeto serão oferecidos minicursos práticos, focando a temática do projeto e utilizando dados reais. No minicurso de Planilhas de texto e tratamento de dados os alunos serão familiarizados com operações de busca, edição, retabulação de dados, expressões regulares, estatísticas descritivas, fórmulas e índices, gráficos e análise de regressão para ajuste de curvas. No minicurso de Banco de dados, os alunos aprenderão sobre o processo de criação e manutenção de um banco de dados relacional: criação/edição/deleção de tabelas e inserção/busca/deleção/alteração de dados, utilizando o SGBD PostgreSQL. Por fim, será apresentada a ferramenta GNU R e o ambiente RStudio, onde serão estudados os tipos de dados e serão implementadas funções estatísticas para análise dos dados e geração de gráficos poderosos e elegantes.<br />
+              
+    	    	   
+	  </td>
+    </tr>
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #A00; font-size:24px; font-weight:bold">Referências Bibliográficas</td>
+    </tr>
+        
+     	       <td><strong>Referência</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    LUZ, A. S.; BRIZOLLA, F.; GARCIA, C. A. X. A contribuição da universidade pública para o desenvolvimento da sociedade brasileira: o caso da Universidade Multicampi na região do Pampa Gaúcho. Jornal de Políticas Educacionais.Volume 11. 2017. Disponível em: https://revistas.ufpr.br/jpe/article/view/51293. Acessado em 07/02/2019.      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA. Microdados da Educação Superior 2016. Brasília: Inep, 2017. Disponível em: http://inep.gov.br/microdados . Acessado em: 07/02/2019.      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    LI, DENISE LEVI. O Novo ENEM e a plataforma SISU: efeitos sobre a migração e a evasão estudantil. Dissertação de Mestrado - Universidade de São Paulo. 2016.      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    DAVENPORT, THOMAS H; PATIL, D.J. Data Scientist: The Sexiest Job of the 21st Century. Disponível em : https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century. Acessado em: 07/02/2019.      </td>
+        </tr>
+	
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #A00; font-size:24px; font-weight:bold">Equipe Técnica</td>
+    </tr>
+        
+     	       <td><strong>Nome</strong></td>
+           <td><strong>Matrícula</strong></td>
+           <td><strong>Unidade Acadêmica</strong></td>
+           <td><strong>Vínculo Institucional</strong></td>
+           <td><strong>Titulação</strong></td>
+           <td><strong>Função no projeto</strong></td>
+           <td><strong>Carga Horária</strong></td>
+           <td><strong>Telefone</strong></td>
+           <td><strong>Email</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    MARCELO SANTANA CAMACHO      </td>
+          <td>
+	    3826217      </td>
+          <td>
+	    CAMPUS UNIVERSITÁRIO DE SALINÓPOLIS      </td>
+          <td>
+	    Técnico Administrativo      </td>
+          <td>
+	    Especialização      </td>
+          <td>
+	    Coordenador      </td>
+          <td>
+	    20      </td>
+          <td>
+	    987570944      </td>
+          <td>
+	    camacho@ufpa.br      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Arleson Eduardo Monte Palma Lopes      </td>
+          <td>
+	    1190399      </td>
+          <td>
+	    Campus Universitário de Salinópolis      </td>
+          <td>
+	    Técnico Administrativo      </td>
+          <td>
+	    Especialização      </td>
+          <td>
+	    Subcoordenador      </td>
+          <td>
+	    20      </td>
+          <td>
+	    91982175594      </td>
+          <td>
+	    arleson@ufpa.br      </td>
+        </tr>
+		 
+    <tr>  
+	      <td>
+	    Antonia Vamilis da Silva Brito      </td>
+          <td>
+	    1385618      </td>
+          <td>
+	    Campus Universitário de Salinópolis      </td>
+          <td>
+	    Técnico Administrativo      </td>
+          <td>
+	    Graduação      </td>
+          <td>
+	    Membro      </td>
+          <td>
+	    10      </td>
+          <td>
+	    981024339      </td>
+          <td>
+	    vamilisbrito@ufpa.br      </td>
+        </tr>
+	
+    </table><br /><br />
+    <table width="100%" style="color:#000" border="1">
+    <tr>
+      <td align="center" colspan="10" style="color: #A00; font-size:24px; font-weight:bold">Outras fontes de financiamento</td>
+    </tr>
+        
+     	       <td><strong>Elemento de Despesa</strong></td>
+           <td><strong>Fonte de Financiamento</strong></td>
+           <td><strong>Valor</strong></td>
+         </tr>    
+    	 
+    <tr>  
+	      <td>
+	    Não existe Outra fonte      </td>
+          <td>
+	    0      </td>
+          <td>
+	    0.00      </td>
+        </tr>
+	
+    </table><br /><br />
+    
+					<table width="99%" border="2"
+                            style=
+                            "
+                              font-size:12px;  
+                              color: #000;
+                            "
+                      >	
+                      <tr>
+                      		<td colspan="13" style="color: #A00; font-size:24px; font-weight:bold; text-align:center">Cronograma</td>
+                      </tr>
+                      <tr style=" font-weight:bold">
+                          <td align="center" height="20">Atividades</td>
+                          <td width="40" align="center">08/2019</td><td width="40" align="center">09/2019</td><td width="40" align="center">10/2019</td><td width="40" align="center">11/2019</td><td width="40" align="center">12/2019</td><td width="40" align="center">01/2020</td><td width="40" align="center">02/2020</td><td width="40" align="center">03/2020</td><td width="40" align="center">04/2020</td><td width="40" align="center">05/2020</td><td width="40" align="center">06/2020</td><td width="40" align="center">07/2020</td>                      </tr>
+                      
+                          <tr><td align="justify">
+AQUISIÇÃO DE BASES E IMPLANTAÇÃO DO SGBD</td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td></tr><tr><td align="justify">PREPARAÇÃO DE CURSO PLANILHAS ELETRÔNICAS E TRATAMENTO DE DADOS</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle">X</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td></tr><tr><td align="justify">MINICURSO DE PLANILHAS ELETRÔNICAS E TRATAMENTO DE DADOS</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td></tr><tr><td align="justify">PREPARAÇÃO DE MINICURSO SOBRE BANCO DE DADOS</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td></tr><tr><td align="justify">MINICURSO DE BANCOS DE DADOS</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td></tr><tr><td align="justify">PREPARAÇÃO DO MINICURSO DE GNU R</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td></tr><tr><td align="justify">MINICURSO DE GNU R</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle">X</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td></tr><tr><td align="justify">PREPARAÇÃO DE RELATÓRIOS E ARTIGOS</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle">X</td><td align="center" valign="middle"></td></tr><tr><td align="justify">APRESENTAÇÃO DE RESULTADOS</td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle"></td><td align="center" valign="middle">X</td></tr>                      </tr>
+                      
+                    </table>
+</body>
+</html>
